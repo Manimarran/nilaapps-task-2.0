@@ -1,0 +1,41 @@
+<ul style="    list-style-type: none;
+    padding: 0.2rem 1.6rem !important;">
+    <li class="list">
+        <span class="label">Course Code</span>
+        <span class="value"> BA3102 </span>
+    </li>
+    <li class="list">
+        <span class="label">Course Name</span>
+        <span class="value">Quantitative techniques </span>
+    </li>
+    <li class="list">
+        <span class="label">Course Type</span>
+        <span class="value">Program Elective </span>
+    </li>
+    <li class="list">
+        <span class="label">Course Period</span>
+        <span class="value"> Semester - 1</span>
+    </li>
+    <li class="list">
+        <span class="label">Credits (4)</span>
+        <div class="listValue value" >
+            <div *ngFor="let ele of creditList">
+                <span class="creditList_label"> {{ele?.label}}</span> &nbsp; - &nbsp;<span class="creditListValue"> {{ele?.value}}</span>
+            </div>
+        </div>
+    </li>
+    <li class="list">
+        <span class="label">Course Outcomes (COs)</span>
+        <div >
+            <span *ngFor="let ele of courseOutcomes" class="chip_value"> <button type="button" class="btn green">{{ele}}</button>
+            </span>
+        </div>
+    </li>
+    <li class="list">
+        <span class="label">Mapped to this Course</span>
+        <div >
+            <span *ngFor="let ele of mappedCourses" class="chip_value"> <button type="button" class="btn blue">{{ele}}</button>
+            </span>
+        </div>
+    </li>
+</ul>

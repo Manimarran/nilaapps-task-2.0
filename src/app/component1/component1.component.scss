@@ -1,0 +1,67 @@
+.list{
+    border-bottom: 2px solid #e8e5e5;
+    padding: 8px 0;
+
+}
+
+.label{
+    font-size: 16px !important;
+    font-weight: 700;
+    
+    letter-spacing: 0px !important;
+    color: #0f204b;
+}
+
+.value{
+    display: block;
+    font-size: 14px !important;
+    padding: 0 1px;
+}
+
+.creditListValue{
+    font-weight: 600;
+}
+
+.creditList_label{
+    width: 55px;
+    display: inline-block;
+}
+
+.listValue{
+    padding: 5px 0;
+}
+
+.chip_value{
+    margin: 5px 10px 5px 0px;
+    height: auto;
+    display: inline-block;
+    width: 60px;
+}
+
+.green{
+    color: #000;
+    background-color: #77c977;
+    width: 65px;
+}
+.green:active{
+    color: #000 !important;
+    border-color: #77c977 !important;
+    background-color: #77c977 !important;
+}
+
+.blue{
+    color: #000;
+    background-color: #5e9fd5;
+    width: 65px;
+    :hover{
+        color: #000;
+        background-color: #5e9fd5;
+    }
+    
+}
+
+.blue:active{
+    color: #000 !important;
+    border-color: #5e9fd5 !important;
+    background-color: #5e9fd5 !important;
+}
